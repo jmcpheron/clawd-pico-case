@@ -562,3 +562,12 @@ no outside inputs.
   hashes differ). Each STEP re-imports as one solid matching the model.
 - Onshape edits that come back become MEASUREMENTS rows citing Jason's edit
   and the STEP file hash, then a new build123d J script. See `cad/README.md`.
+
+## 2026-09-30 — J20 looser grip (fork session)
+
+- By: Claude (Opus 5.5) for Jason McPheron, same session as the J19 STEP
+  export above; nothing new seen.
+- Input: Jason's caliper reading of the stick, 1.8 across the flats (J4-JM),
+  and his fit result (J19 plate will not go on). Both from Jason, 2026-09-30.
+- What: `cad/joystick_j20.py`, J19-1 with the square grip 2.00–2.20.
+  Original geometry, built on J15–J19 source; STL, STEP and fit.step outputs.
