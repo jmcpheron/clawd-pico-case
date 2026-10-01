@@ -1,0 +1,46 @@
+{
+  "passed": true,
+  "checks": {
+    "valid_single_solid": true,
+    "pegs_in_pico_holes": true,
+    "clear_of_pico": true,
+    "flat_on_pico_face": true,
+    "clear_of_header_strips": true,
+    "clear_of_hat": true,
+    "clear_of_v1_7_case": true,
+    "clear_of_wall_when_slid": true,
+    "wires_fit_clips": true,
+    "lip_retains_one_wire": true,
+    "no_overhangs_printed": true,
+    "printed_flat_on_bed": true
+  },
+  "provisional": true,
+  "size_mm": [
+    14.64,
+    3.92,
+    1.4
+  ],
+  "peg_d": 1.8,
+  "peg_l": 1.63,
+  "clip_x": [
+    7.4,
+    19.04
+  ],
+  "wire_x": [
+    6.85,
+    7.95,
+    18.49,
+    19.59
+  ],
+  "wire_envelope": 1.0,
+  "mouth": 0.85,
+  "top_z": -12.86,
+  "room_to_lcd_back": 10.89,
+  "room_to_socket_bottoms": 2.2,
+  "overhangs": [],
+  "notes": [
+    "Provisional: peg positions and hole size are PICO-HOLES-PROV (datasheet), strips are the H1 envelope.",
+    "Wires reach the clips over the 1.4 plate (a 1.4 step down into the channel); where they are soldered is independent of the part.",
+    "Pigtail: thread the bare end in through a v1.8 slot, solder, then press the wires into the clips."
+  ]
+}

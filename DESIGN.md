@@ -229,3 +229,28 @@ Jason's. Small holes print undersize by an amount that depends on printer,
 material and settings, so a grip is a per-printer number until we have a
 tolerance that works on both. J20-JM finds Jason's; the result tells us how far
 apart the two printers are.
+## I2C spacer and v1.8 cable slots — 2026-10-01
+
+Jason wants an external I2C signing chip on a pigtail out of the non-USB end,
+with a printed part between the Pico and the LCD that holds the cable. The
+wires are independent of the part, so it does not route them to pins; it
+locates on the Pico and grips the wires where they leave.
+
+- Between the boards, touching only the Pico: two pegs in the Pico's
+  button-end holes, nothing reaching the LCD or its sockets, so the display
+  cannot be lifted or moved out of line with the window.
+- Two slots, not one: the wall below the seam has only 1.9 mm above the Pico
+  face, and the end catch is centred. Four wires side by side beside the catch
+  would crowd it or the header strips; cutting under the catch would weaken
+  it. 2 + 2 keeps the catch on a full wall.
+- Base only, below the seam: the lid, catches and ribs stay as v1.7, so a
+  v1.7 lid closes on a v1.8 base and no lid reprint is needed.
+- Closed slots and a pigtail: the plug stays outside and the bare end is
+  threaded in, so the opening only has to pass wires. Smallest hole, no
+  removable cover.
+- Tolerances reused, not invented: pegs 0.15 per side (JOY_SOCKET_CLEAR) in
+  the PCB holes, 0.30 (CLEAR) to the header strips and wall, slot 0.25 per
+  side (CAP_HOLE_CLEAR), clip lip 0.15 interference (V1.4-RIB).
+- Prints flat: the spacer top face down with pegs up, so no face points down
+  above the bed. The base prints floor down; each slot roof is a 2.5 mm
+  bridge.

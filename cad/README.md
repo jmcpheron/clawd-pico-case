@@ -30,3 +30,8 @@ Pico mounting holes (provisional, datasheet numbers): `renders/pico-holes/assemb
 (v1.7 base and lid, hat, Pico with holes, in the case frame) and `pico.step`;
 hole centres and free room in `validation.json`. `.venv/bin/python cad/pico_holes.py`.
 Documents on Onshape's free plan are public; use a private plan for this design.
+
+I2C signing-chip wiring (provisional): `cad/i2c_spacer.py` (spacer on the Pico,
+pegs in its button-end holes, two edge clips) and `cad/v1_8_cable_slot.py`
+(v1.7 base + two non-USB end slots; viewer, assembly). Report:
+`reports/2026-10-01-i2c-spacer-v1.8.md`.

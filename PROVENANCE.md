@@ -596,3 +596,18 @@ no outside inputs.
   geometry; the case, hat and Pico proxies are the repo's own.
 - Outputs: `renders/pico-holes/` (assembly.step, pico.step, validation.json,
   manifest.json). Jason to measure PINK-P20 and L8 with calipers and photos.
+
+## 2026-10-01 — I2C spacer and v1.8 cable slots (fork session)
+
+- By: Claude (Opus 5.5) for Jason McPheron, same session; seen this session:
+  this repo only. No third-party case, no ~/picowallet, no web pages.
+- Input: Jason's written spec (pasted into the session) for a wiring spacer
+  between the Pico and the LCD for an external OPTIGA Trust M I2C breakout,
+  and his answers: wires independent of the part, between the boards with a
+  strain-relief clip, pigtail cable. He believes the cable is Qwiic / STEMMA QT
+  (JST-SH 4-pin); unconfirmed, logged as Q-1, and no connector or breakout
+  dimension was used.
+- What: `cad/i2c_spacer.py` and `cad/v1_8_cable_slot.py`. Original geometry
+  from repo rows only (SP-*, V1.8-* added first; pegs reuse PICO-HOLES-PROV,
+  provisional). Outputs in stl/i2c-spacer, stl/v1.8, renders/i2c-spacer,
+  renders/v1.8 and renders/viewer.html.

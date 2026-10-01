@@ -1,0 +1,48 @@
+{
+  "revision": "v1.8",
+  "checks": {
+    "base_valid_single_solid": true,
+    "base_changed_only_at_slots": true,
+    "slots_through_wall": true,
+    "slot_roof_0_6_below_seam": true,
+    "slots_1_5_clear_of_end_catch": true,
+    "every_wire_inside_a_slot": true,
+    "catches_unchanged": true,
+    "closed_contact_only_at_ribs": true,
+    "catches_seated_clear": true,
+    "hardware_clear_of_base": true,
+    "spacer_clear_of_case": true,
+    "wires_pass_slots": true,
+    "wires_clear_of_spacer": true
+  },
+  "passed": true,
+  "physical_fit_confirmed": false,
+  "provisional": true,
+  "slot_mm": {
+    "width": 2.5,
+    "height": 1.5,
+    "z": [
+      -14.51,
+      -13.01
+    ],
+    "x": [
+      [
+        6.15,
+        8.65
+      ],
+      [
+        17.79,
+        20.29
+      ]
+    ],
+    "roof_below_seam": 0.65,
+    "clear_of_end_catch": 1.57
+  },
+  "pairs_with": "v1.7 lid (unchanged)",
+  "notes": [
+    "Base only, below the seam: catches, ribs and lid unchanged (checked).",
+    "Thread the pigtail's bare end in through a slot, 2 wires per slot.",
+    "Slot roof prints as a 2.5 mm bridge, floor down.",
+    "Spacer pegs and hole positions are provisional (PICO-HOLES-PROV)."
+  ]
+}

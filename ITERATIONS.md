@@ -286,3 +286,16 @@ J15 slid over the stick's collar and pulled out; J16 squared the hole and
 added tabs; J17 grew the tabs; J18-J19 swept the hole depth because the cap
 bottom pressed the collar (all five switches); J20-J21 brought back a wide
 mouth over the collar; J21-1 (1.9 deep) won and, with a flat top, is J22.
+## V1.8 — non-USB end cable slots + I2C spacer (2026-10-01)
+
+For Jason's external I2C signing chip (OPTIGA Trust M). The v1.7 base with two
+2.5 × 1.5 slots through the non-USB end wall, wholly below the seam and 1.57
+clear of the end catch; the v1.7 lid is unchanged and still fits (checked:
+base changed only at the slots, catches, ribs and seating unchanged). New part:
+the I2C spacer, a 14.6 × 3.9 × 1.4 plate on the Pico's LCD-facing face with two
+pegs in the Pico's button-end holes and two edge clips (2 wires each) in line
+with the slots. Pigtail cable, plug outside. Sources: cad/v1_8_cable_slot.py,
+cad/i2c_spacer.py. Outputs: stl/v1.8, stl/i2c-spacer, renders/v1.8 (viewer,
+assembly, preview), renders/i2c-spacer. 13 + 12 checks pass. Provisional: the
+Pico holes are datasheet numbers (PICO-HOLES-PROV) and the wire size is a 1.0
+envelope. Not printed; stl/current unchanged.

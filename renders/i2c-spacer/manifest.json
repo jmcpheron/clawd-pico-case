@@ -1,0 +1,18 @@
+{
+  "revision": "i2c-spacer (provisional)",
+  "supports": false,
+  "raft": false,
+  "slice_verified": false,
+  "source_sha256": {
+    "cad/i2c_spacer.py": "f778076490b8e6362715fac81aa3609a13e77870de182ff6e620ede54c4dfc0e",
+    "cad/pico_holes.py": "807e15483ef90131754c34ce18464008d6237b215ecdd03de766b17c0f1025fd",
+    "cad/model.py": "6d401e401560ab3a3c339794c0e94cb95c5f186c2cfae068bea420f36719c149",
+    "cad/params.py": "e8f8c4500abf3de1b84acd75225e8dc90a7562a858533c53c64b1c730db51b6a",
+    "cad/v1_7_lock.py": "b2b0b930b51aa504fa46465a58fb9aad952d7581d27cb292a28a122285fdffe5"
+  },
+  "files": {
+    "stl/i2c-spacer/i2c-spacer-top-down.stl": "da9df297f6608dc4ebbe4843a6c874742c1f246f4772946b2c36caa193e79ab1",
+    "renders/i2c-spacer/part.step": "012d9d3e7916a98f9bc11101463d2b8b57cf89808d2e3d8c9ed1662a236bddd2",
+    "renders/i2c-spacer/validation.json": "804d99934ed6a58aa65531af3520841fecfccd9e37bf862c56a003a728244cbc"
+  }
+}

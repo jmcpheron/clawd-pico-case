@@ -1,0 +1,21 @@
+{
+  "revision": "v1.8",
+  "supports": false,
+  "raft": false,
+  "slice_verified": false,
+  "source_sha256": {
+    "cad/v1_8_cable_slot.py": "20fd287f74337034446cd89d267ef81d1c5d24c7abfc6ac1ce495374fa754b98",
+    "cad/i2c_spacer.py": "f778076490b8e6362715fac81aa3609a13e77870de182ff6e620ede54c4dfc0e",
+    "cad/pico_holes.py": "807e15483ef90131754c34ce18464008d6237b215ecdd03de766b17c0f1025fd",
+    "cad/v1_7_lock.py": "b2b0b930b51aa504fa46465a58fb9aad952d7581d27cb292a28a122285fdffe5",
+    "cad/joystick_j22.py": "91dae69a452d1d2a17e33f9a1a638e8c2bb2bf7e8f7cef5d1f60d35c7561dc35",
+    "cad/model.py": "6d401e401560ab3a3c339794c0e94cb95c5f186c2cfae068bea420f36719c149",
+    "cad/params.py": "e8f8c4500abf3de1b84acd75225e8dc90a7562a858533c53c64b1c730db51b6a"
+  },
+  "files": {
+    "stl/v1.8/base-floor-down.stl": "012ec471ee89d82fb2f01f25d16aa46d1c74900e91c2e8f704c6d6f6d4f0f923",
+    "renders/v1.8/assembly.step": "5f95b626e4b0d34c106b8d80ae69024ca825417330ecb5a4a26ef22ecb924b99",
+    "renders/v1.8/validation.json": "4f9c4dab6ec58b2888bf9222446d2f59ac83de512907557cbad82b17e0ee517c",
+    "renders/v1.8/viewer.html": "e3d070d3a2122f4fd5d3fb70a21fcc3963e53e162899cc1259c5083d5e7de909"
+  }
+}

@@ -646,3 +646,33 @@ Austin authorizes scan-based estimates and iteration (2026-09-24).
 | V1.7-PRY | The lid's half of the pry notch is filled; the base keeps its 6 × 0.8 × 1.0 slot | Original; open with a thumbnail or small tool |
 | V1.7-NOTE | The v1.4–v1.6 lids' two button-end ribs sit at x 5.4/19.4, not 6/20 (a wedge_y winding bug, found in v1.7). Harmless, clear of all catches | Found 2026-09-27 |
 | V1.7-HOLE-BEVEL | The LCD window edge (1.2 fillet) and joystick hole edge (0.6 fillet) get the same 45° tangent fill as V1.6-BEVEL; the openings are unchanged below the fill | Austin, 2026-09-27: a rough edge on the button side of the LCD opening (v1.5/v1.6 lid). The sampled check finds 50 steep spots on the v1.6 lid (13 on the button side) and 0 on v1.7 |
+
+### SP — I2C wiring spacer between the Pico and the LCD
+
+| ID | Value | Source |
+|---|---|---|
+| SP-FEEDBACK | A thin printed part between the Pico and the LCD for 4 wires (3V3, GND, SDA, SCL) to an external OPTIGA Trust M I2C breakout; the cable leaves through the non-USB end. The wires are independent of the part (no pin routing); it sits between the boards with a strain-relief clip; the cable is a pigtail (one plug cut off, the plug stays outside) | Jason, 2026-10-01 |
+| SP-PLATE | Plate on the Pico's LCD-facing face between the header strips: x = Pico centre ± 7.32 (strip inner edge P10/2 − HEADER_W/2 = 7.62, minus CLEAR 0.30); y from CLEAR 0.30 inside the end wall with the stack slid fully to the button end, to 4.30 past the inner wall face; 1.4 thick | Original. Strips are the provisional H1 envelope (PINK-STRIP pending) |
+| SP-PEG | Two pegs in the button-end Pico holes: Ø1.8 = PICO-HOLES-PROV Ø2.1 − 2 × JOY_SOCKET_CLEAR 0.15; 1.63 long (PINK-P3 1.23 + 0.4); 0.3 × 45° tip chamfer | Original; positions and hole size from `cad/pico_holes.py` (provisional, PINK-P20 pending) |
+| SP-WIRE | Wire envelope: up to Ø1.0 per wire | Original design envelope, not a cable measurement; check against Q-OD |
+| SP-CLIP | Two clips at the button-end edge, 2 wires each: channel 2.2 wide (2 × 1.0 + MATE_CLEAR 0.20), 1.2 long, cut through the plate so the wires rest on the Pico face; its top 0.4 is a lip with a 0.85 mouth (SP-WIRE 1.0 − V1.4-RIB 0.15 interference): push one wire through, slide it aside, then the other; 0.4 wall to the plate edge, so centres at Pico centre ∓ 5.82 | Original |
+| SP-PRINT | Prints top face down, pegs up, no supports | Original; no downward faces above the bed in that orientation (checked) |
+
+### V1.8 non-USB end cable slots
+
+| ID | Value | Source |
+|---|---|---|
+| V1.8-SLOT | Two slots through the base's non-USB end wall, in line with the SP clips: 2.5 wide (2 × 1.0 + 2 × CAP_HOLE_CLEAR 0.25) × 1.5 tall (1.0 + 2 × 0.25), from 0.25 below the Pico's LCD-facing face; roof 0.65 below the seam; 1.57 clear of the end catch on each side | Original. Base only, below the seam: no catch, rib or lid change, so the v1.7 lid still fits |
+| V1.8-WHY-TWO | The wall below the seam has 1.9 above the Pico face, and the end catch is centred. Four wires flat beside the catch do not fit between the header strips without crowding the catch; 2 + 2 keeps the catch on a full wall. One 4-wire slot is possible if Q-OD ≤ 0.8 | Original |
+
+### Pending measurements for the I2C spacer (Jason: caliper and photo)
+
+| ID | Dimension | Value | Source | Notes |
+|---|---|---|---|---|
+| PINK-STRIP | Pico header plastic strips: height above the Pico face (fills PINK-P18b), inner-edge distance from the board centreline, and where each strip ends near the non-USB edge | | cal (pending) | SP-PLATE uses the H1 envelope until then |
+| PINK-FACE | Is the Pico's LCD-facing face clear between the strips within 5 mm of the non-USB edge? | | look + photo (pending) | The model assumes a bare face |
+| Q-1 | Connector is a Qwiic / STEMMA QT 4-pin JST-SH | | look (pending) | Jason believes so; unconfirmed |
+| Q-OD | Each wire's outside diameter, and the arrangement (loose, bonded flat, twisted) | | cal (pending) | SP-WIRE assumes ≤ 1.0 |
+| Q-PLUG | Plug housing W × H × L | | cal (pending) | For the external holder |
+| OPT-1 | OPTIGA Trust M breakout: L × W × T, connector position, mounting holes, tallest part | | cal (pending) | For the external holder |
+| PINK-PINS | Which header positions carry 3V3, GND and the firmware's SDA and SCL | | silkscreen + firmware (pending) | Optional; the wires are independent of the part. L9 (LCD back parts) also still pending |
