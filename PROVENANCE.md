@@ -547,3 +547,20 @@ no outside inputs.
 2026-09-30 J20 (cad/joystick_j20.py): J19-2 with a 3.2 x 0.5 round mouth and funnel, 1.5 total depth. Original geometry.
 2026-09-30 J21 (cad/joystick_j21.py): J20 at depth 1.9 / 2.0, dots 1/2; J20.cap takes depth and dots (J20 STL rebuilds identical). Original geometry.
 2026-09-30 J22 (cad/joystick_j22.py): J21-1 without the dot; now stl/current/joystick.stl. Original geometry.
+
+## 2026-10-01 — Jason's Pico pin spacer + I2C variant (fork session)
+
+- By: Claude (Opus 5.5) for Jason McPheron, in his fork, on a branch from
+  upstream main (ef8ea69). Seen this session: this repo and Jason's file only.
+  No third-party case, no ~/picowallet, no web pages.
+- Input: `inputs/2026-10-01-jason-pico-spacer.step`, Jason's original design
+  (Onshape "Part Studio 1 - Part 6", exported 2026-10-01T20:06:14Z), SHA256
+  8319309b4b510ec4128f9be43da630fcca887caee2540161a71941140802430e. Dimensions
+  from his own calipers. Contributed by Jason under the repo's MIT licence;
+  committed unchanged as the record. Not third-party geometry.
+- Jason's choices: snap the holes to the datasheet grid (P9, P10); extra tabs
+  at pins 6 (GP4), 7 (GP5), 36 (3V3), 38 (GND); pin 1 top-right seen from the
+  header side (his board); dot + arrow orientation mark.
+- What: `cad/pico_pin_spacer.py` rebuilds his file from rows JS-* (checked
+  equal to the STEP) and builds the corners and I2C variants on the grid.
+  JS-TIGHT (r 0.8 junctions at the 1.78 gaps) and JS-MARK are original.

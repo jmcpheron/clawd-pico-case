@@ -213,3 +213,21 @@ a shallower hole gives a better centre press but lifts the flange toward the
 lid. Both push the same way, so J17 walks one path from J16 (tested clean) to
 a cap the model is sure double-clicks, in five steps. Austin picks the step
 with the best hold and press that still clicks clean.
+## Jason's Pico pin spacer and its I2C variant — 2026-10-01
+
+Jason's spacer is a 1.0 plate between the header rows with square-holed tabs
+over chosen pins. It is rebuilt from rows rather than imported, so every
+number traces to MEASUREMENTS, and the rebuild is checked equal to his STEP.
+
+- On the datasheet grid: his caliper positions (17.70 × 48.20) are close to
+  the 2.54 grid (17.78 × 48.26). Snapping keeps every added pin exactly on
+  the pin it is meant for, rather than letting caliper rounding add up.
+- Pins 6 and 7 share one tab: they are 2.54 apart, less than a 3.3 tab.
+- Pins 36, 38 and 40 keep separate tabs, so pins 37 and 39 pass through the
+  1.78 gaps. Those junction fillets are r 0.8, because two r 1.0 fillets
+  need 2.0.
+- With the extra tabs the part only fits one way round, but it would still
+  slide onto pins backwards or upside down. A dot by pin 1 and an arrow to
+  the USB end on the top face show which way it goes.
+- Kept as his: the sharp corner where the plate end meets a corner tab, the
+  r 1.0 tab corners, 1.3 square holes, 1.0 thickness.

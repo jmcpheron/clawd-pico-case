@@ -1,0 +1,21 @@
+{
+  "revision": "pico-spacer",
+  "supports": false,
+  "raft": false,
+  "slice_verified": false,
+  "source_sha256": {
+    "cad/pico_pin_spacer.py": "df3217fa052fee9b1f13c38bf8f0d0f364b99796b07d55555538239c76905c97",
+    "inputs/2026-10-01-jason-pico-spacer.step": "8319309b4b510ec4128f9be43da630fcca887caee2540161a71941140802430e",
+    "cad/model.py": "6d401e401560ab3a3c339794c0e94cb95c5f186c2cfae068bea420f36719c149",
+    "cad/params.py": "e8f8c4500abf3de1b84acd75225e8dc90a7562a858533c53c64b1c730db51b6a",
+    "cad/v1_7_lock.py": "b2b0b930b51aa504fa46465a58fb9aad952d7581d27cb292a28a122285fdffe5"
+  },
+  "files": {
+    "stl/pico-spacer/pico-spacer-corners.stl": "877b27ca257e21082cb70e80f18671b639bcdd7e03f121281bd80db3ca17d7fe",
+    "renders/pico-spacer/pico-spacer-corners.step": "d52c1a6fb854b77e852b18d0e849e61da46dcde2e3a7cfb004ae27d539008531",
+    "stl/pico-spacer/pico-spacer-i2c.stl": "96093fd7afd302894a48cc4968a5d5e7937cf30e24a2287faa25ecc7ca7f8538",
+    "renders/pico-spacer/pico-spacer-i2c.step": "b9bcb9c187847286ed8739fac54685b27ebc8e655fb6f14fb86c5352d4c25963",
+    "renders/pico-spacer/top-view.svg": "f0f5768b0a8f2c2772594bd0acd0891ddad58c06ede1e83d343d617eda336e83",
+    "renders/pico-spacer/validation.json": "84c89aa3eecbffe16ce528953b55e0f2d8cacff41e3040c8c7976f6713adb782"
+  }
+}

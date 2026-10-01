@@ -286,3 +286,12 @@ J15 slid over the stick's collar and pulled out; J16 squared the hole and
 added tabs; J17 grew the tabs; J18-J19 swept the hole depth because the cap
 bottom pressed the collar (all five switches); J20-J21 brought back a wide
 mouth over the collar; J21-1 (1.9 deep) won and, with a flat top, is J22.
+## Pico pin spacer (Jason) + I2C variant (2026-10-01)
+
+Jason's own spacer (inputs/2026-10-01-jason-pico-spacer.step) rebuilt in
+cad/pico_pin_spacer.py and checked equal to his file, then built on the
+datasheet pin grid in two versions: corners (pins 1, 20, 21, 40) and i2c
+(+ 6/GP4, 7/GP5, 36/3V3, 38/GND, pin-1 dot and USB arrow). Outputs:
+stl/pico-spacer, renders/pico-spacer (STEP for Onshape, top-view.svg,
+validation). 16 checks pass. Fits the v1.7 case footprint (0.17 to the rails);
+needs 1.0 free under the LCD sockets. Not printed; stl/current unchanged.

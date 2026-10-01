@@ -1,0 +1,111 @@
+{
+  "passed": true,
+  "checks": {
+    "source_file_unchanged": true,
+    "rebuild_matches_jason_step": true,
+    "rebuild_same_bbox": true,
+    "corners_valid_single_solid": true,
+    "corners_holes_on_grid": true,
+    "corners_no_extra_holes": true,
+    "corners_flat_on_bed": true,
+    "i2c_valid_single_solid": true,
+    "i2c_holes_on_grid": true,
+    "i2c_no_extra_holes": true,
+    "i2c_flat_on_bed": true,
+    "pins_6_7_share_one_tab": true,
+    "tabs_36_38_40_separate_1_78": true,
+    "mark_wholly_in_plate_0_7_floor": true,
+    "i2c_contains_corners_but_pin_40_junction": true,
+    "footprint_clear_of_v1_7_case": true
+  },
+  "source": {
+    "file": "inputs/2026-10-01-jason-pico-spacer.step",
+    "sha256": "8319309b4b510ec4128f9be43da630fcca887caee2540161a71941140802430e",
+    "onshape": "Part Studio 1 - Part 6, 2026-10-01T20:06:14Z",
+    "author": "Jason McPheron"
+  },
+  "grid": {
+    "row_x": 8.89,
+    "corner_pin_y": 24.13,
+    "pitch": 2.54,
+    "jason_cal": {
+      "row_x": 8.85,
+      "corner_pin_y": 24.1
+    }
+  },
+  "pins": {
+    "corners": {
+      "1": [
+        8.89,
+        24.13
+      ],
+      "20": [
+        8.89,
+        -24.13
+      ],
+      "21": [
+        -8.89,
+        -24.13
+      ],
+      "40": [
+        -8.89,
+        24.13
+      ]
+    },
+    "i2c": {
+      "1": [
+        8.89,
+        24.13
+      ],
+      "20": [
+        8.89,
+        -24.13
+      ],
+      "21": [
+        -8.89,
+        -24.13
+      ],
+      "40": [
+        -8.89,
+        24.13
+      ],
+      "6": [
+        8.89,
+        11.43
+      ],
+      "7": [
+        8.89,
+        8.89
+      ],
+      "36": [
+        -8.89,
+        13.97
+      ],
+      "38": [
+        -8.89,
+        19.05
+      ]
+    }
+  },
+  "size_mm": {
+    "corners": [
+      21.08,
+      51.56,
+      1.0
+    ],
+    "i2c": [
+      21.08,
+      51.56,
+      1.0
+    ]
+  },
+  "case_fit": {
+    "clear_to_rails": 0.17,
+    "gap_header_side_mm": 3.6,
+    "needs": "at least 1.0 free between the header plastic top and the LCD socket bottoms, or the LCD rises by the shortfall (PINK-P18b unmeasured)"
+  },
+  "notes": [
+    "Holes snapped to the datasheet grid (JS-SNAP); Jason measured 17.70 x 48.20 (JS-PINS-CAL).",
+    "Pin numbering from Jason looking at his board (PICO-PINOUT). Check top-view.svg against the board before printing."
+  ]
+}

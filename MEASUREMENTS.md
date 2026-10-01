@@ -635,3 +635,19 @@ Austin authorizes scan-based estimates and iteration (2026-09-24).
 | V1.7-PRY | The lid's half of the pry notch is filled; the base keeps its 6 × 0.8 × 1.0 slot | Original; open with a thumbnail or small tool |
 | V1.7-NOTE | The v1.4–v1.6 lids' two button-end ribs sit at x 5.4/19.4, not 6/20 (a wedge_y winding bug, found in v1.7). Harmless, clear of all catches | Found 2026-09-27 |
 | V1.7-HOLE-BEVEL | The LCD window edge (1.2 fillet) and joystick hole edge (0.6 fillet) get the same 45° tangent fill as V1.6-BEVEL; the openings are unchanged below the fill | Austin, 2026-09-27: a rough edge on the button side of the LCD opening (v1.5/v1.6 lid). The sampled check finds 50 steep spots on the v1.6 lid (13 on the button side) and 0 on v1.7 |
+
+### JS — Jason's Pico pin spacer
+
+| ID | Value | Source |
+|---|---|---|
+| JS-SOURCE | Jason's spacer: a flat plate between the header rows that slips over the four corner header pins (1, 20, 21, 40) on the header side. Onshape "Part Studio 1 - Part 6", exported 2026-10-01T20:06:14Z, SHA256 8319309b4b510ec4128f9be43da630fcca887caee2540161a71941140802430e; committed unchanged as `inputs/2026-10-01-jason-pico-spacer.step` | Jason, 2026-10-01; dimensions from his calipers, no photo saved |
+| JS-PINS-CAL | Corner hole centres 17.70 across × 48.20 along (± 8.85, ± 24.1) | Jason's calipers (in JS-SOURCE). Datasheet grid: 17.78 (P10) × 48.26 (19 × P9) |
+| JS-SNAP | All holes on the datasheet grid: rows ± 8.89 (P10 / 2), 2.54 pitch (P9), corner pins at ± 24.13 (19 × 2.54 / 2) | Jason, 2026-10-01: "snap all to datasheet" |
+| JS-PAD | Tab 3.3 × 3.3 centred on its pin; outer corners r 1.0; joins the plate with an r 1.0 concave fillet on its inner side; the plate-end corner stays sharp | Jason's design (JS-SOURCE) |
+| JS-HOLE | 1.3 × 1.3 square through hole on each tab's pin | Jason's design (JS-SOURCE) |
+| JS-T | 1.0 thick | Jason's design (JS-SOURCE) |
+| JS-PLATE | Plate between the rows: long edges on the tabs' inner edges (pin row − 1.65), ends on the corner-pin line | Jason's design (JS-SOURCE) |
+| JS-I2C | I2C variant: extra tabs at pin 6 (GP4) and pin 7 (GP5) for data, pin 36 (3V3) and pin 38 (GND) for power. Pins 6 and 7 are 2.54 apart, so their tabs merge into one 3.3 × 5.84 tab | Jason, 2026-10-01 |
+| JS-TIGHT | Where two tabs on a side are only 1.78 apart (pins 36, 38 and 40), the junction fillets facing that gap are r 0.8, not 1.0: two r 1.0 fillets need 2.0. The gap stays open because pins 37 and 39 stand in it | Original; largest round value under the 0.89 limit |
+| PICO-PINOUT | Seen from the header side (the LCD side) with USB at the top: pin 1 (GP0) top-right, pins 1–20 down the right side, 21–40 up the left (21 bottom-left, 40 top-left) | Jason, 2026-10-01, looking at his board |
+| JS-MARK | I2C variant only, on the top (LCD-side) face: Ø1.0 × 0.3 deep dot inboard of the pin-1 tab, and a 3.0 × 3.0 × 0.3 deep arrow pointing to the USB end; 0.7 floor left | Original; Jason chose "dot + arrow" |
