@@ -213,3 +213,12 @@ a shallower hole gives a better centre press but lifts the flange toward the
 lid. Both push the same way, so J17 walks one path from J16 (tested clean) to
 a cap the model is sure double-clicks, in five steps. Austin picks the step
 with the best hold and press that still clicks clean.
+## STEP is output, Onshape edits come back as numbers — 2026-09-30
+
+Jason wants to adjust joystick caps in Onshape. STEP files are exported from
+the build123d source (`cad/joystick_j19_step.py`) and are never edited into
+the repo as the source. An Onshape-edited STEP gets compared with the original,
+the changed dimensions go into `MEASUREMENTS.md` citing the edit, and a new J
+script reproduces them parametrically. This keeps every number in `cad/`
+traceable to a row, which is the independent-creation trail the repo exists
+to keep.

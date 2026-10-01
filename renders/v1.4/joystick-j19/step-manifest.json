@@ -1,0 +1,32 @@
+{
+  "revision": "J19-STEP",
+  "passed": true,
+  "checks": {
+    "1_reimports_as_one_solid": true,
+    "1_reimport_matches_model": true,
+    "2_reimports_as_one_solid": true,
+    "2_reimport_matches_model": true,
+    "3_reimports_as_one_solid": true,
+    "3_reimport_matches_model": true,
+    "4_reimports_as_one_solid": true,
+    "4_reimport_matches_model": true,
+    "5_reimports_as_one_solid": true,
+    "5_reimport_matches_model": true,
+    "fit_reimports_all_bodies": true
+  },
+  "source_sha256": {
+    "cad/joystick_j19_step.py": "97e1d753d46cbe7d5534d9e939ea5d7750cca5de2db8c9190c6c32dcec88eea6",
+    "cad/joystick_j19.py": "12150d89bd18e738b63498545df19a1d87bac71f6e41545a8138d67b795880c4",
+    "cad/joystick_j18.py": "2569d142200a29808ed6c1241c09d48cc4af0dbfdedb8a4167c65686efeef444",
+    "cad/joystick_j17.py": "266dc8be2d25933364f3fe62b67427516e881ea621992180cfbea78aac3f0794",
+    "cad/j10_tilt.py": "90adce1ef659ab094b1140b20df21fae01cbd1074900511435ed943461f370da"
+  },
+  "files": {
+    "stl/v1.4/joystick-j19/joystick-j19-1.step": "3d624785c2ea41f2a0fc43549690adf2adfaba15f8a0531856ec770659baf968",
+    "stl/v1.4/joystick-j19/joystick-j19-2.step": "fb031bc471eb5fe9154ad4e243bf7e8fa017aa1f69a9b07fe7d32e8e89fef76c",
+    "stl/v1.4/joystick-j19/joystick-j19-3.step": "66fd3540b7f7e00064f461c4761d9d4a5a6d8eb061b0ac584a8befc328a9f0b3",
+    "stl/v1.4/joystick-j19/joystick-j19-4.step": "896d188cc1ad193b34b3377f0fca734bd6b011f867f17d317fb74096ed610d7e",
+    "stl/v1.4/joystick-j19/joystick-j19-5.step": "dd8a3527a542da150164dca934662eaab88d8970a52d77b1fe39fe3430cf7cd8",
+    "renders/v1.4/joystick-j19/fit.step": "6d4de11d031e302e1ef6042bbb80a7765cc5532d93b8052c9bce7a99fcfc6168"
+  }
+}

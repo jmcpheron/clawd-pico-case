@@ -544,3 +544,21 @@ no outside inputs.
 2026-09-30 J17 (cad/joystick_j17.py): five J16 variants, tabs 1.3-2.3x and hole 0-0.2 shallower, dice-dot marks. Original geometry, no outside inputs.
 2026-09-30 J18 (cad/joystick_j18.py): J17-B tabs, hole depth 2.2-1.7, dots 1-6; J4c = Austin's ~2 mm tip-to-collar estimate. Original geometry.
 2026-09-30 J19 (cad/joystick_j19.py): J18 at depths 1.6-1.2. Original geometry.
+
+## 2026-09-30 — J19 STEP export for Onshape (fork session)
+
+- By: Claude (Opus 5.5) for Jason McPheron, in his fork
+  `jmcpheron/clawd-pico-case`, started in this directory from a fresh clone.
+- Seen this session: this repo only. No forbidden designs, no `~/picowallet`,
+  no other case files or listings.
+- What: `cad/joystick_j19_step.py` writes the five J19 caps as STEP
+  (`stl/v1.4/joystick-j19/*.step`) and a fit assembly with the v1.7 lid and the
+  hat proxy (`renders/v1.4/joystick-j19/fit.step`). No new geometry and no new
+  numbers. It calls `joystick_j18.cap` at J19-DEPTH and places parts as
+  `j10_tilt.py` does. The hat proxy's stick is moved to the lid's joystick hole
+  centre (L4/V1-JOY offsets already in source).
+- Check: rebuilding J19 on this machine gave the same STL bounding boxes and
+  volumes within 0.002 mm³ of the committed STLs (tessellation differs, so the
+  hashes differ). Each STEP re-imports as one solid matching the model.
+- Onshape edits that come back become MEASUREMENTS rows citing Jason's edit
+  and the STEP file hash, then a new build123d J script. See `cad/README.md`.
