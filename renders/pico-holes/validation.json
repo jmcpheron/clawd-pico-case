@@ -1,0 +1,61 @@
+{
+  "passed": true,
+  "checks": {
+    "pico_valid": true,
+    "holes_cut_only_the_pcb": true,
+    "holes_inside_outline": true,
+    "holes_inside_header_rows": true,
+    "pico_clear_of_case": true,
+    "assembly_reimports_four_bodies": true
+  },
+  "provisional": true,
+  "sources": {
+    "hole_d": "P4 2.1 (ds Pico 2 W)",
+    "pitch_length": "P7 47.0 (ds)",
+    "pitch_width": "P8 11.4 (ds)",
+    "pico_position": "centred under the hat (A3 assumption, L8 unmeasured)",
+    "stack_y": "held -0.22 (v1.3: against the USB-end wall, 0.02 clear); can slide 0.08 toward the button end"
+  },
+  "frame": "case: LCD PCB front face z 0, +y toward the USB-C/joystick end; mm",
+  "pico_faces_z": {
+    "header_face": -14.26,
+    "component_face": -15.49
+  },
+  "hole_d": 2.1,
+  "holes": [
+    {
+      "name": "button end, left",
+      "x": 7.52,
+      "y": 2.53,
+      "below_to_base": 3.55,
+      "above_to_hat": 12.29
+    },
+    {
+      "name": "button end, right",
+      "x": 18.92,
+      "y": 2.53,
+      "below_to_base": 3.55,
+      "above_to_hat": 12.29
+    },
+    {
+      "name": "USB end, left",
+      "x": 7.52,
+      "y": 49.53,
+      "below_to_base": 3.55,
+      "above_to_hat": 12.29
+    },
+    {
+      "name": "USB end, right",
+      "x": 18.92,
+      "y": 49.53,
+      "below_to_base": 3.55,
+      "above_to_hat": 12.29
+    }
+  ],
+  "notes": [
+    "below_to_base: free height under each hole from the Pico component face to the first base material.",
+    "above_to_hat: free height above each hole from the Pico header face to the hat proxy or lid.",
+    "Replace P4/P7/P8 with PINK caliper rows (PINK-P20) and L8 before designing to these.",
+    "Hat proxy overlaps the lid by 0.0031 mm3 at the held position: the joystick body proxy, whose height J3 is a render guess. Not the Pico."
+  ]
+}

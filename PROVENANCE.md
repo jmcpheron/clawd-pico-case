@@ -585,3 +585,14 @@ no outside inputs.
   `renders/v1.4/joystick-j20jm/`, rows J20JM-*. Geometry unchanged. The entry
   above keeps its original wording; this file is append-only.
 - Jason's result: J20-JM-3 (2.10 grip) fits the stick on his printer.
+
+## 2026-10-01 — Pico mounting holes, provisional (fork session)
+
+- By: Claude (Opus 5.5) for Jason McPheron, same session; nothing new seen.
+- Input: Jason wants the PINK Pico's four corner holes modelled as mounting
+  points for a future wire / signing-chip holder. PINK holes are unmeasured, so
+  `cad/pico_holes.py` uses the existing datasheet rows P4/P7/P8 (official Pico
+  2 W) as PICO-HOLES-PROV, with the A3 centring assumption. No new outside
+  geometry; the case, hat and Pico proxies are the repo's own.
+- Outputs: `renders/pico-holes/` (assembly.step, pico.step, validation.json,
+  manifest.json). Jason to measure PINK-P20 and L8 with calipers and photos.

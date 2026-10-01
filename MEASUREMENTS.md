@@ -72,6 +72,8 @@ table once per tag; clones must not inherit the datasheet numbers.
 | PINK-P18 | Header pin length below PCB | ~10.0 | cal 2026-09-24 | Austin: 10.5 jaw to jaw including the solder tips on the top face; about 10.0 from the underside to the pin tips. The stack (A rows) is the number that matters. `measurements/2026-09-24-cal-PINK-P18-pin-length-1.jpg` |
 | PINK-P18b | Header plastic strip thickness | | cal | |
 | PINK-P19 | USB connector type | USB-C | look | |
+| PINK-P20 | Mounting holes: diameter; centre pitch along and across; centre from the short and long edges | | cal (pending, Jason) | Four corner holes present (Jason, 2026-10-01). Until measured, `cad/pico_holes.py` uses PICO-HOLES-PROV |
+| PICO-HOLES-PROV | Provisional holes: Ø2.1, centre pitch 47.0 along × 11.4 across, centred on the PINK outline (PINK-P1/P2); Pico centred under the hat (A3); stack held against the USB-end wall as v1.3 | P4 / P7 / P8, ds Pico 2 W | Jason, 2026-10-01: "build provisional now". Replace with PINK-P20 and L8 before designing to them |
 
 ## L. Waveshare Pico-LCD-1.3, board
 

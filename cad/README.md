@@ -26,4 +26,7 @@ the Python stays the source of truth.
    the Onshape STEP.
 
 Regenerate the STEPs: `.venv/bin/python cad/joystick_j19_step.py`.
+Pico mounting holes (provisional, datasheet numbers): `renders/pico-holes/assembly.step`
+(v1.7 base and lid, hat, Pico with holes, in the case frame) and `pico.step`;
+hole centres and free room in `validation.json`. `.venv/bin/python cad/pico_holes.py`.
 Documents on Onshape's free plan are public; use a private plan for this design.

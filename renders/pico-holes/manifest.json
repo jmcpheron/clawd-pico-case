@@ -1,0 +1,14 @@
+{
+  "revision": "pico-holes (provisional)",
+  "source_sha256": {
+    "cad/pico_holes.py": "807e15483ef90131754c34ce18464008d6237b215ecdd03de766b17c0f1025fd",
+    "cad/model.py": "6d401e401560ab3a3c339794c0e94cb95c5f186c2cfae068bea420f36719c149",
+    "cad/params.py": "e8f8c4500abf3de1b84acd75225e8dc90a7562a858533c53c64b1c730db51b6a",
+    "cad/v1_7_lock.py": "b2b0b930b51aa504fa46465a58fb9aad952d7581d27cb292a28a122285fdffe5"
+  },
+  "files": {
+    "renders/pico-holes/assembly.step": "280b12e23992d7f2e308d93fb4381fadf1e0d7937b4301c48cbbc441110d6ae7",
+    "renders/pico-holes/pico.step": "fbea4aa56ddecab4ed2889180c29451d91316f2936ab5c485e7c07b272df0d62",
+    "renders/pico-holes/validation.json": "86cc55d46afb2b3be300c6990c71f6e9d867626b5e74af1f70f7cc239a996a69"
+  }
+}
