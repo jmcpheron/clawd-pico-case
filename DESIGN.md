@@ -222,10 +222,10 @@ the changed dimensions go into `MEASUREMENTS.md` citing the edit, and a new J
 script reproduces them parametrically. This keeps every number in `cad/`
 traceable to a row, which is the independent-creation trail the repo exists
 to keep.
-## J20 grip is printer-dependent — 2026-09-30
+## J20-JM grip is printer-dependent — 2026-09-30
 
 The same 1.90 hole grips the stick on Austin's printer and will not start on
 Jason's. Small holes print undersize by an amount that depends on printer,
 material and settings, so a grip is a per-printer number until we have a
-tolerance that works on both. J20 finds Jason's; the result tells us how far
+tolerance that works on both. J20-JM finds Jason's; the result tells us how far
 apart the two printers are.

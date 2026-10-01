@@ -42,11 +42,11 @@
     "5_pips_inside_flat_top": true,
     "5_step_matches_model": true,
     "plate_separate": true,
-    "J20-1 grip 2.00_clear_of_lid_and_stick_at_rest": true,
-    "J20-2 grip 2.05_clear_of_lid_and_stick_at_rest": true,
-    "J20-3 grip 2.10_clear_of_lid_and_stick_at_rest": true,
-    "J20-4 grip 2.15_clear_of_lid_and_stick_at_rest": true,
-    "J20-5 grip 2.20_clear_of_lid_and_stick_at_rest": true
+    "J20JM-1 grip 2.00_clear_of_lid_and_stick_at_rest": true,
+    "J20JM-2 grip 2.05_clear_of_lid_and_stick_at_rest": true,
+    "J20JM-3 grip 2.10_clear_of_lid_and_stick_at_rest": true,
+    "J20JM-4 grip 2.15_clear_of_lid_and_stick_at_rest": true,
+    "J20JM-5 grip 2.20_clear_of_lid_and_stick_at_rest": true
   },
   "passed": true,
   "grips": {

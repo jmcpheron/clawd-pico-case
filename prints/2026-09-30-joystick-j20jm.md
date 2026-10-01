@@ -1,0 +1,20 @@
+# J20-JM joystick set 1–5 (looser grip, dice dots on top)
+
+J19-1 (hole depth 1.6, J17-B tabs) with a looser square grip:
+
+| Dots | 1 | 2 | 3 | 4 | 5 |
+|---|---|---|---|---|---|
+| Grip mm | 2.00 | 2.05 | 2.10 | 2.15 | 2.20 |
+
+Goal: find the smallest that goes on the stick firmly on Jason's printer
+(J19's 1.90 would not start). Line the square up with the stick's flats (tabs
+on the diagonals). The dots repeat J19's; keep the sets apart.
+
+`stl/v1.4/joystick-j20jm/joystick-j20jm-plate.stl`, SHA256 `132b8ac9860c5c28e2c68c759d2c002854ec9ad418ed2dbe44a30f2563a39f84`. Flange down, no supports.
+Printer, material and settings: to be filled in by Jason.
+
+## Result (Jason, 2026-10-01, his printer)
+
+**3 dots (2.10) fits the stick just right.** Click behaviour (centre only on
+a straight press, no centre on the arrows) not yet reported. Printer,
+material and settings not yet recorded.

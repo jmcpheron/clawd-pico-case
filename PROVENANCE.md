@@ -571,3 +571,13 @@ no outside inputs.
   and his fit result (J19 plate will not go on). Both from Jason, 2026-09-30.
 - What: `cad/joystick_j20.py`, J19-1 with the square grip 2.00–2.20.
   Original geometry, built on J15–J19 source; STL, STEP and fit.step outputs.
+
+## 2026-10-01 — fork J20 renamed J20-JM, synced with upstream
+
+- By: Claude (Opus 5.5) for Jason McPheron, same session; nothing new seen.
+- Austin's upstream (clawdbotatg/clawd-pico-case) added its own J20, J21 and
+  J22 on 2026-09-30. The fork's J20 above (looser grip) is renamed J20-JM:
+  `cad/joystick_j20jm.py`, `stl/v1.4/joystick-j20jm/`,
+  `renders/v1.4/joystick-j20jm/`, rows J20JM-*. Geometry unchanged. The entry
+  above keeps its original wording; this file is append-only.
+- Jason's result: J20-JM-3 (2.10 grip) fits the stick on his printer.

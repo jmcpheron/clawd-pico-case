@@ -581,14 +581,14 @@ Austin authorizes scan-based estimates and iteration (2026-09-24).
 | J19-DEPTH | Hole 1.6 / 1.5 / 1.4 / 1.3 / 1.2 (dice dots 1–5), J17-B tabs. 1.2 leaves 0.95 of straight grip | Austin's values |
 | J19-TILT | Model, if the stick tip seats on the roof: 4.2° / 2.8° / 1.5° / 0.1° / touching at rest. Austin's J18 result (1.7 still reaches the collar) suggests the tip doesn't seat on the roof, so the model's ride height is likely wrong here | Comparison only |
 
-### J20 — looser grip for Jason's printer
+### J20-JM — looser grip for Jason's printer
 
 | ID | Value | Source |
 |---|---|---|
-| J20-FEEDBACK | On Jason's printer the J19 plate (1.90 grip) will not start over the stick in any rotation | Jason, 2026-09-30, after printing `joystick-j19-plate.stl` (printer and settings not recorded) |
+| J20JM-FEEDBACK | On Jason's printer the J19 plate (1.90 grip) will not start over the stick in any rotation | Jason, 2026-09-30, after printing `joystick-j19-plate.stl` (printer and settings not recorded) |
 | J4-JM | Stem across the flats: 1.8 | Jason's caliper, 2026-09-30; no photo saved. Agrees with J4 (1.86, cal) within reading |
-| J20-GRIP | Square grip 2.00 / 2.05 / 2.10 / 2.15 / 2.20 (dice dots 1–5), step 0.05 as J6/J7/J14 | Original. 1.90 printed under 1.8 on Jason's printer, so start above J14-3 (1.95, Austin's loosest); 2.20 + 2 × 0.25 chamfer = 2.70 < 2.94 lip (J4b) |
-| J20-KEEP | Depth 1.6 (J19-1), J17-B tabs, J16 mouth chamfer; at 1.90 the J20 code reproduces J19-1 exactly (checked) | Jason: change the grip only |
+| J20JM-GRIP | Square grip 2.00 / 2.05 / 2.10 / 2.15 / 2.20 (dice dots 1–5), step 0.05 as J6/J7/J14 | Original. 1.90 printed under 1.8 on Jason's printer, so start above J14-3 (1.95, Austin's loosest); 2.20 + 2 × 0.25 chamfer = 2.70 < 2.94 lip (J4b) |
+| J20JM-KEEP | Depth 1.6 (J19-1), J17-B tabs, J16 mouth chamfer; at 1.90 the J20-JM code reproduces J19-1 exactly (checked) | Jason: change the grip only |
 
 ### V1.4 lid crush ribs
 
